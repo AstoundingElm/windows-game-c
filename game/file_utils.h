@@ -1,6 +1,5 @@
 #pragma once
 
-#include "config.h"
 #include <stdlib.h>
 #include <stdbool.h>
 
@@ -150,7 +149,7 @@ int io_file_write(void* buffer, size_t size, const char* path) {
             "Expected 1 chunk, got %zu.\n", chunks_written);
 
     return 0;
-  return true;
+  
   
 };
 

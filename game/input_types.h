@@ -12,6 +12,8 @@ enum input_key{
 
 };
 
+
+
 enum key_state{
 
   KS_UNPRESSED,
@@ -19,6 +21,8 @@ enum key_state{
   KS_HELD,
   
 };
+
+
 
 struct input_state{
 
@@ -30,3 +34,5 @@ struct input_state{
   key_state escape;
 
 };
+
+static input_state input_state_context;
